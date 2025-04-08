@@ -1,0 +1,264 @@
+.table-container {
+    width: 90%;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+  }
+  
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    border: 1px solid #ddd;
+    padding: 12px 16px;
+    text-align: center;
+  }
+  
+  .custom-table th {
+    background-color:
+    #f3f4f6;
+    color:#6b7280;
+  }
+  
+  .custom-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .custom-table tbody tr:hover {
+    background-color: #ddd;
+  }
+  .fa-edit{
+    color:white;
+  }
+  .fa-trash{
+    color: 
+    white;
+  }
+  .btn-dash{
+    padding:  10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    
+  }
+  .edit{
+    background-color:  #1d4ed8;
+  }
+  .red{
+    background-color:  #c81e1e;;
+  }
+  button{
+    cursor: pointer;
+  }
+
+  .dashboard{
+    display: flex;
+    /* background-color: rebeccapurple; */
+  }
+  .first{
+    width: 10%;
+  }
+  .second{
+    width: 90%;
+  }
+
+  .drawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    max-width: 400px;
+    height: 100vh;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 9999;
+  }
+  
+  .drawer.open {
+    transform: translateX(0);
+  }
+  
+  .drawer-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .drawer-close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+ 
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .form-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  
+  .btn {
+    padding: 10px 16px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn.primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn.cancel {
+    background-color: #e0e0e0;
+    color: #333;
+  }
+  .popup-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+    
+    .popup-content {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 500px;
+      width: 80%;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .end{
+      display: flex;
+      align-items: end;
+      justify-content: end;
+    }
+
+    .sidebar {
+        position: sticky;
+        top: 0; /* now it sticks once it reaches the top */
+        height: 100vh;
+        width: 200px;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+        z-index: 1000;
+        border: 1px solid #e4e4e4;
+      }
+      
+      
+      .sidebar h2 {
+        margin-bottom: 30px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      
+      .sidebar a {
+        padding: 10px 15px;
+        border-radius: 4px;
+        text-decoration: none;
+        color: black;
+        margin-bottom: 10px;
+        transition: background-color 0.3s ease;
+      }
+      
+      .sidebar a:hover {
+        background-color: #e7e7e7;
+   /* Slightly lighter dark */
+      }
+      
+      .sidebar a.logout {
+        color: #f87171; /* Light red */
+      }
+      
+      .sidebar a.logout:hover {
+        background-color: #dc2626;
+        color: white; /* Red hover */
+      }
+      
+
+
+      /* Pour centrer le contenu avec une largeur maximale */
+
+/* pagination                            */ 
+
+/* Pagination Container */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Pagination Button */
+.pagination button {
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  color: #333;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Active Pagination Button */
+.pagination button.active {
+  background-color: rgba(233, 69, 96, 0.8);
+  color: #fff;
+  border-color: #f918d0ce;
+}
+
+/* Hover Effect for Pagination Button */
+.pagination button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Disabled Pagination Button */
+.pagination button:disabled {
+  background-color: #ccc;
+  color: #999;
+  cursor: not-allowed;
+}
