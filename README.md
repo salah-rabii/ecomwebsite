@@ -1,10 +1,10 @@
-# 🛍️ Application E-Commerce – React.js & Spring Boot
+# ️ Application E-Commerce – React.js & Spring Boot
 
 Cette application est une plateforme de commerce en ligne complète développée avec React.js pour le frontend et Spring Boot pour le backend. Elle permet aux utilisateurs de parcourir les produits, d'ajouter au panier, d'acheter via Stripe, et aux administrateurs de gérer les produits et catégories.
 
 ---
 
-## ⚙️ Pile Technologique
+##  Pile Technologique
 
 ### Frontend
 - React.js
@@ -276,7 +276,7 @@ src/main/java/com/myecommerce/
 ### Installation Frontend
 ```bash
 # Cloner le repository
-git clone https://github.com/salahedinerabii/ecommerce-app.git
+git clone https://github.com/salahedinerabii/ecomwebsite.git
 
 # Accéder au dossier frontend
 cd ecommerce-app/frontend
