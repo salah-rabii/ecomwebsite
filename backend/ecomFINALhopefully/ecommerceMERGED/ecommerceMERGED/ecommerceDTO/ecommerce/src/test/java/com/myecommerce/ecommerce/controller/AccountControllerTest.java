@@ -29,7 +29,7 @@ public class AccountControllerTest {
     private ObjectMapper objectMapper = new ObjectMapper();
 
     @Mock
-    private UserService userService;
+    private UserService userService; //Un service mocké qui simule le comportement du service d'inscription réel.
 
     @InjectMocks
     private AccountController accountController;

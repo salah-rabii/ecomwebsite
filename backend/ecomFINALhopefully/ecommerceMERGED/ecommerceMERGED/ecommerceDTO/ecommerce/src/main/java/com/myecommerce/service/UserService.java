@@ -39,6 +39,7 @@ public class UserService {
         AppUser newUser = new AppUser();
         newUser.setEmail(registerDto.getEmail());
         newUser.setPassword(passwordEncoder.encode(registerDto.getPassword()));
+
         newUser.setFirstName(registerDto.getFirstName());
         newUser.setLastName(registerDto.getLastName());
 
