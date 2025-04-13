@@ -314,14 +314,14 @@ mvn spring-boot:run
 
 *À ajouter après le développement initial*
 
-![HomePage](../ecommerce_readme_bundle/homepage.png)
-![HomePage1](../ecommerce_readme_bundle/homepage1.png)
-![HomePage2](../ecommerce_readme_bundle/homepage2.png)
-![HomePage3](../ecommerce_readme_bundle/homepage3.png)
-![RegisterPage](../ecommerce_readme_bundle/registerpage.png)
-![LoginPage](../ecommerce_readme_bundle/loginpage.png)
-![ShopPage](../ecommerce_readme_bundle/shoppage.png)
-![CartPage](../ecommerce_readme_bundle/cartpage.png)
+![HomePage](ecommerce_readme_bundle/homepage.png)
+![HomePage1](ecommerce_readme_bundle/homepage1.png)
+![HomePage2](ecommerce_readme_bundle/homepage2.png)
+![HomePage3](ecommerce_readme_bundle/homepage3.png)
+![RegisterPage](ecommerce_readme_bundle/registerpage.png)
+![LoginPage](ecommerce_readme_bundle/loginpage.png)
+![ShopPage](ecommerce_readme_bundle/shoppage.png)
+![CartPage](ecommerce_readme_bundle/cartpage.png)
 
 ---
 
